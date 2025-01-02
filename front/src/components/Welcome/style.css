@@ -1,0 +1,36 @@
+.Welcome{
+    height: 20vh;
+    display: flex;
+    padding: 2vw;
+}
+
+.Profile{
+    
+    background-color: rgb(37, 37, 37);
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Profile>img{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.Hello{
+
+}
+
+.Hello>p{
+    color: rgb(206, 206, 206);
+    font-size: 2vw;
+    font-family: 'Lora';
+    padding: 2vw;
+    
+}

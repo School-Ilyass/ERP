@@ -1,0 +1,43 @@
+.News{
+    width: 85vw;
+    height: 50vh;
+    background-color: rgb(37, 37, 37);
+    border-radius: 30px;
+    margin: auto;
+
+}
+
+.Messages{
+    width: 85vw;
+    height: 10vh;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.Messages:hover{
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.MessageIcon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MessageIcon>img{
+    width: 40px;
+    height: 40px;
+}
+
+.MessagesContent>p{
+    font-size: 1vw;
+    margin: 0;
+    margin-top: 3vh;
+}
+.MessagesContent>span{
+    font-size: 0.8vw;
+    color: orange;
+}
