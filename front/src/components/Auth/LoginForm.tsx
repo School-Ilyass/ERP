@@ -11,7 +11,7 @@ function LoginForm() {
     event.preventDefault();
     console.log(email, password);
   };
-
+  
   return (
     <form className="LoginForm" onSubmit={handleSubmit}>
       <InputField
@@ -19,12 +19,14 @@ function LoginForm() {
         type="email"
         value={email}
         onChange={(e: any) => setEmail(e.target.value)}
+        placeholder="Ex: JoeDoe@Domaine.com"
       />
       <InputField
         label="Password"
         type="password"
         value={password}
         onChange={(e: any) => setPassword(e.target.value)}
+        placeholder="Ex: 12345678"
       />
       <Button text="Login" />
       <p className="ForgotPassword">

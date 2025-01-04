@@ -6,6 +6,7 @@ function InputField(props: any) {
           type={props.type}
           value={props.value}
           onChange={props.onChange}
+          placeholder={props.placeholder}
           required
         />
       </div>
