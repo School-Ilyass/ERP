@@ -1,0 +1,62 @@
+
+  .LoginForm {
+    max-width: 400px; 
+    width: 90%; 
+    padding: 20px; 
+    background-color: #2e2e2e; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    color: white;
+  }
+  
+
+  .InputField {
+    margin-bottom: 15px;
+  }
+  
+  .InputField label {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .InputField input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .Button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .Button:hover {
+    background-color: #357738;
+  }
+
+  .ForgotPassword {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .ForgotPassword a {
+    color: #4c90af;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .ForgotPassword a:hover {
+    color: #13658b;
+    text-decoration: underline;
+  }
