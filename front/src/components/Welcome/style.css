@@ -8,13 +8,14 @@
     
     background-color: rgb(37, 37, 37);
     border-radius: 30px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    animation-duration: 0.3s;
 }
 .Profile>img{
     width: 100px;

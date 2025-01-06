@@ -9,7 +9,7 @@ import MailIcon from "../../assets/icons/Mail.svg"
 
 function Sidebar(){
     return(
-        <div className="sidebar">
+        <div className="sidebar animate__fadeInLeft">
             <Link
                 id="dashboardicon"
                 href="/Dashboard"

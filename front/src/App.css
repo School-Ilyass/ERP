@@ -16,4 +16,5 @@ body{
   height: 80vh;
   translate: 3vw;
   border-radius: 15px;
+  animation-duration: 0.3s;
 }

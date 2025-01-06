@@ -12,10 +12,15 @@
     color: white;
     width: 100vw;
     height: 100vh; 
+    animation-duration: 0.3s;
 }
   
-  .LoginTitle {
-    margin-bottom: 20px;
-    font-size: 24px;
-    color: white;
-  }
+.LoginTitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+#EmailInput{
+  transition: all 0.3s ease;
+}
