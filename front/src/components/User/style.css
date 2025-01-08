@@ -1,0 +1,62 @@
+.letter{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(26, 25, 25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.letter>div{
+    transform: translate(2vw);
+}
+.user{
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(62, 62, 62);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.user:hover{
+    background-color: rgb(34, 34, 34);
+    transition: all 0.3s ease;
+}
+
+.UserProfile{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserProfile>img{
+    width: 30px;
+    height: 30px;
+
+}
+.Name{
+    width: 80vw;
+}
+.Actions{
+    width: 10vw;
+    display: flex;
+}
+.Actions>a{
+    width: 30px;
+    height: 30px;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 1vw;
+}
+.Actions>a:hover{
+    background-color: rgb(124, 124, 124);
+    transition: all 0.3s ease;
+    border-radius: 100px;
+}
+.Actions>a>img{
+    width: 30px;
+}

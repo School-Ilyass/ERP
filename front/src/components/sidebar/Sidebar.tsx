@@ -12,12 +12,12 @@ function Sidebar(){
         <div className="sidebar animate__fadeInLeft">
             <Link
                 id="dashboardicon"
-                href="/Dashboard"
+                href="/dashboard"
                 icon={DashboardIcon}
             />
             <Link
                 id="usersicon"
-                href="/Users"
+                href="/users"
                 icon={UsersIcon}
             />
             <Link
