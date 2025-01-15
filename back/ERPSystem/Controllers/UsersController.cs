@@ -1,6 +1,7 @@
 ﻿using ERPSystem.Data; // For AppDbContext
 using ERPSystem.DTOs;
 using ERPSystem.Helpers; // For JwtHelper
+using ERPSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ERPSystem.Controllers
@@ -43,8 +44,17 @@ namespace ERPSystem.Controllers
             // Generate the JWT token
             var token = _jwtHelper.GenerateToken(user.Email, user.Role.ToString());
 
-            // Return the token in the response
-            return Ok(new { Token = token });
+            return Ok(new
+            {
+                token,
+                user = new
+                {
+                    user.Id,
+                    user.FirstName,
+                    user.LastName,
+                    user.Role
+                }
+            });
         }
     }
 }
