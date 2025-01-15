@@ -23,7 +23,7 @@ function LoginForm() {
 
     try {
       // Make an API call to the backend
-      const response = await fetch("http://localhost:5289/api/users/login", {
+      const response = await fetch("http://localhost:5289/api/Users/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
