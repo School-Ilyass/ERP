@@ -37,6 +37,8 @@ function LoginForm() {
 
         // Save the JWT token in localStorage
         localStorage.setItem("token", data.token);
+        // Save the role in localStorage
+        localStorage.setItem("role", data.user.role);
 
         // Notify success and navigate to the dashboard
         notifySuccess();

@@ -8,17 +8,39 @@ import MoneyIcon from "../../assets/icons/money.svg"
 import MailIcon from "../../assets/icons/Mail.svg"
 
 function Sidebar(){
+    const role:string = localStorage.getItem("role")!
+    if(role == '0'){
+        return(
+            <div className="sidebar animate__fadeInLeft">
+                <Link
+                    id="dashboardicon"
+                    href="/dashboard"
+                    icon={DashboardIcon}
+                />
+                <Link
+                    id="usersicon"
+                    href="/users"
+                    icon={UsersIcon}
+                />
+                <Link
+                    id="moneyicon"
+                    href="/Money"
+                    icon={MoneyIcon}
+                />
+                <Link
+                    id="mailicon"
+                    href="/Mail"
+                    icon={MailIcon}
+                />
+            </div>
+        )
+    }
     return(
         <div className="sidebar animate__fadeInLeft">
             <Link
                 id="dashboardicon"
                 href="/dashboard"
                 icon={DashboardIcon}
-            />
-            <Link
-                id="usersicon"
-                href="/users"
-                icon={UsersIcon}
             />
             <Link
                 id="moneyicon"
