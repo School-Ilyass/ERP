@@ -31,13 +31,13 @@ namespace ERPSystem.Controllers
             var user = _context.Users.SingleOrDefault(u => u.Email == loginDto.Email);
             if (user == null)
             {
-                return Unauthorized("Invalid email or password.");
+                return Unauthorized(new { message = "Invalid email or password" });
             }
 
             // Verify the password (assuming plain text for now)
             if (user.Password != loginDto.Password)
             {
-                return Unauthorized("Invalid email or password.");
+                return Unauthorized(new { message = "Invalid email or password" });
             }
 
             // Generate the JWT token
