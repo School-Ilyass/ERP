@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\models\\inbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:models\\inbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\models\\messageinbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:models\\messageinbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\enums\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:enums\\notificationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|c:\\users\\mo\\source\\repos\\erpsystem\\migrations\\20250114215948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E3517F0-1548-47DE-A2D9-138B5184A9F4}|ERPSystem.csproj|solutionrelative:migrations\\20250114215948_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:01:42.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:54:09.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:10:56.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:04:08.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:51:35.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T00:05:54.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA8wCoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:00:47.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T13:55:08.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T13:49:52.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\PaymentType.cs",
+              "RelativeDocumentMoniker": "Enums\\PaymentType.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\PaymentType.cs",
+              "RelativeToolTip": "Enums\\PaymentType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:12:28.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T00:36:19.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-14T13:49:38.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250114215948_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Migrations\\20250114215948_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250114215948_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Migrations\\20250114215948_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250114215948_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:59:49.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Inbox.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Inbox.cs",
+              "RelativeDocumentMoniker": "Models\\Inbox.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Inbox.cs",
+              "RelativeToolTip": "Models\\Inbox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:57:13.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MessageInbox.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\MessageInbox.cs",
+              "RelativeDocumentMoniker": "Models\\MessageInbox.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\MessageInbox.cs",
+              "RelativeToolTip": "Models\\MessageInbox.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:53:46.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:06:47.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\Role.cs",
+              "RelativeToolTip": "Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:15:12.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NotificationType.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\NotificationType.cs",
+              "RelativeDocumentMoniker": "Enums\\NotificationType.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\NotificationType.cs",
+              "RelativeToolTip": "Enums\\NotificationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:09:22.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\Gender.cs",
+              "RelativeDocumentMoniker": "Enums\\Gender.cs",
+              "ToolTip": "C:\\Users\\Mo\\source\\repos\\ERPSystem\\Enums\\Gender.cs",
+              "RelativeToolTip": "Enums\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:30:09.229Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
