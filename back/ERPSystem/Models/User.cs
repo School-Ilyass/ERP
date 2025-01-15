@@ -9,7 +9,11 @@ namespace ERPSystem.Models
 
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; } // Full name of the user
+        public string FirstName { get; set; } // Full name of the user
+
+        [Required]
+        [MaxLength(100)]
+        public string LastName { get; set; } // Full name of the user
 
         [Required]
         [EmailAddress]
