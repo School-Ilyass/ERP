@@ -1,0 +1,21 @@
+# Visual Studio temporary files
+.vs/
+.vscode/
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.cache
+*.csproj.nuget.dgspec.json
+*.nuget.cache
+
+# IDE metadata
+*.v9.bin
+*.vsidx
+
+# Other
+*.backup.json
