@@ -1,32 +1,60 @@
-import Message from "./Message"
-import "./style.css"
+import { useEffect, useState } from "react";
+import Message from "./Message";
+import "./style.css";
 
-import mail from "../../assets/icons/Mail.svg"
-import money from "../../assets/icons/money.svg"
+import mail from "../../assets/icons/Mail.svg";
+import money from "../../assets/icons/money.svg";
 
-function News(){
-    return(
-        <div className="News">
-            <Message
-                icon={mail}
-                msg="Contractor Information for Ilyass Baba"
-                date="12/01/2025"
-            />
+// Define the type for a single news item
+type NewsItem = {
+  type: "Message" | "Notification"; // Type of item
+  id: number;
+  subjectOrType: string; // Subject for messages, type for notifications
+  date: string; // ISO format date
+  isRead: boolean; // Read status
+};
 
-            <Message
-                icon={money}
-                msg="Resultat de l'entreprise"
-                date="2/01/2025"
-            />
+function News() {
+  const [newsData, setNewsData] = useState<NewsItem[]>([]); // Store the latest 4 items
 
+  // Fetch data from the backend
+  useEffect(() => {
+    const fetchNews = async () => {
+      try {
+        const token = localStorage.getItem("token"); // Retrieve the JWT token
+        const response = await fetch("http://localhost:5289/api/Users/dashboard", {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`, // Add the JWT token
+          },
+        });
 
-            <Message
-                icon={money}
-                msg="Fiche de paye Decembre 2024"
-                date="29/12/2024"
-            />
-        </div>
-    )
+        if (response.ok) {
+          const data: NewsItem[] = await response.json(); // Explicitly type the response
+          setNewsData(data); // Store the fetched data in state
+        } else {
+          console.error("Failed to fetch dashboard data.");
+        }
+      } catch (error) {
+        console.error("Error fetching news data:", error);
+      }
+    };
+
+    fetchNews();
+  }, []);
+  // Render the latest messages and notifications
+  return (
+    <div className="News">
+      {newsData.map((item) => (
+        <Message
+          icon={item.type === "Message" ? mail : money} // Use the appropriate icon
+          msg={item.subjectOrType} // Subject for messages, type for notifications
+          date={new Date(item.date).toLocaleDateString()} // Format the date
+        />
+      ))}
+    </div>
+  );
 }
 
-export default News
+export default News;

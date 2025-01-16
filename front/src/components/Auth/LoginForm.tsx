@@ -39,6 +39,8 @@ function LoginForm() {
         localStorage.setItem("token", data.token);
         // Save the role in localStorage
         localStorage.setItem("role", data.user.role);
+        // Save the user name in localStorage
+        localStorage.setItem("firstname", data.user.firstName);
 
         // Notify success and navigate to the dashboard
         notifySuccess();
