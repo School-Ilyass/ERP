@@ -1,62 +1,64 @@
-.letter{
-    width: 90vw;
+.user {
+    width: 100%; /* Ensure it fits the parent container */
     height: 10vh;
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    background-color: rgb(26, 25, 25);
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-.letter>div{
-    transform: translate(2vw);
-}
-.user{
-    width: 90vw;
-    height: 10vh;
-    display: flex;
-    /* justify-content: center; */
     align-items: center;
     background-color: rgb(62, 62, 62);
-    cursor: pointer;
+    border-radius: 0; /* Remove border radius for list items */
+    padding: 0 1rem; /* Add horizontal padding for better spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
     transition: all 0.3s ease;
 }
 
-.user:hover{
+.user:hover {
     background-color: rgb(34, 34, 34);
     transition: all 0.3s ease;
 }
 
-.UserProfile{
-    width: 10vw;
+.UserProfile {
+    width: 10%; /* Adjust width proportionally */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.UserProfile>img{
-    width: 30px;
-    height: 30px;
 
+.UserProfile > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Circular image */
 }
-.Name{
-    width: 80vw;
+
+.Name {
+    flex: 1; /* Take up remaining space */
+    padding-left: 1rem;
 }
-.Actions{
-    width: 10vw;
+
+.Actions {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem; /* Add spacing between buttons */
 }
-.Actions>a{
-    width: 30px;
-    height: 30px;
-    display: block;
-    transition: all 0.3s ease;
-    padding: 1vw;
+
+.Actions > button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 50%; /* Circular buttons */
+    padding: 0;
 }
-.Actions>a:hover{
+
+.Actions > button:hover {
     background-color: rgb(124, 124, 124);
-    transition: all 0.3s ease;
-    border-radius: 100px;
 }
-.Actions>a>img{
-    width: 30px;
+
+.Actions > button > img {
+    width: 20px;
+    height: 20px;
 }

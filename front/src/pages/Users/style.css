@@ -1,8 +1,24 @@
+.Content {
+  background-color: rgba(58, 58, 58, 0.51);
+  height: 80vh;
+  margin: 0 auto; /* Center horizontally */
+  border-radius: 15px;
+  overflow-y: auto; /* Enable vertical scrolling if needed */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
 
-.Content{
-    background-color: rgba(58, 58, 58, 0.51);
-    width: 90vw;
-    height: 80vh;
-    translate: 3vw;
-    border-radius: 15px;
-  }
+.HeaderBar {
+  width: 100%; /* Full container width */
+  height: 3rem; /* Adjusted height for better proportions */
+  display: flex;
+  align-items: center;
+  background-color: rgb(26, 25, 25); /* Same background color as before */
+  color: white; /* Text color */
+  font-size: 1.2rem; /* Adjust font size */
+  font-weight: bold;
+  padding-left: 2rem; /* Matches the "translate(2vw)" */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle bottom border */
+  border-radius: 15px 15px 0 0; /* Rounded corners for the top */
+}
+

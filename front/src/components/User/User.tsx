@@ -1,39 +1,35 @@
-import "./style.css"
+import "./style.css";
 
-import icon from "../../assets/icons/userbg.svg"
-import deleteUser from "../../assets/actions/deleteUser.svg"
-import showUser from "../../assets/actions/show.svg"
+import icon from "../../assets/icons/userbg.svg";
+import deleteUser from "../../assets/actions/deleteUser.svg";
+import showUser from "../../assets/actions/show.svg";
 
-function Users(props: any){
-    if(props.type == "letter"){
-        return(
-            <div className="letter">
-                <div className="Name">
-                    <p>{props.name}</p>
-                </div>
-            </div>
-        )
-    }
+// Define the props type for User
+type UserProps = {
+  name: string;
+  onShowDetails: () => void;
+  onDelete: () => void;
+};
 
-    if(props.type == "user"){
-        return(
-            <div className="user">
-                <div className="UserProfile">
-                    <img src={icon}></img>
-                </div>
-                <div className="Name">
-                    <p>{props.name}</p>
-                </div>
-                
-                <div className="Actions">
-                    <a href="#" className="select"><img src={showUser}></img></a>
-                    <a href="#" className="delete"><img src={deleteUser}></img></a>
-                </div>
-            </div>
-        )
-    }    
-
+function User({ name, onShowDetails, onDelete }: UserProps) {
+  return (
+    <div className="user">
+      <div className="UserProfile">
+        <img src={icon} alt="User Profile" />
+      </div>
+      <div className="Name">
+        <p>{name}</p>
+      </div>
+      <div className="Actions">
+        <button onClick={onShowDetails} className="select">
+          <img src={showUser} alt="Show Details" />
+        </button>
+        <button onClick={onDelete} className="delete">
+          <img src={deleteUser} alt="Delete User" />
+        </button>
+      </div>
+    </div>
+  );
 }
 
-
-export default Users
+export default User;
