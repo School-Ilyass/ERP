@@ -1,7 +1,9 @@
-﻿using ERPSystem.Data; // For AppDbContext
+﻿using System.Security.Claims;
+using ERPSystem.Data; // For AppDbContext
 using ERPSystem.DTOs;
 using ERPSystem.Helpers; // For JwtHelper
 using ERPSystem.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ERPSystem.Controllers
@@ -42,7 +44,7 @@ namespace ERPSystem.Controllers
             }
 
             // Generate the JWT token
-            var token = _jwtHelper.GenerateToken(user.Email, user.Role.ToString());
+            var token = _jwtHelper.GenerateToken(user.Id, user.Email, user.Role.ToString());
 
             return Ok(new
             {
@@ -55,6 +57,59 @@ namespace ERPSystem.Controllers
                     user.Role
                 }
             });
+        }
+
+        [HttpGet("dashboard")]
+        [Authorize]
+        public IActionResult GetDashboardData()
+        {
+            // Extract user claims from the token
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (userId == null)
+            {
+                return Unauthorized(new { message = "Invalid token or user information" });
+            }
+
+            // Parse the userId to integer
+            int userIdInt = int.Parse(userId);
+
+            // Fetch the Inbox for the logged-in user
+            var inbox = _context.Inboxes.SingleOrDefault(i => i.UserId == userIdInt);
+            if (inbox == null)
+            {
+                return NotFound(new { message = "Inbox not found for the user." });
+            }
+
+            // Fetch and combine messages and notifications
+            var latestItems = _context.MessageInboxes
+                .Where(mi => mi.InboxId == inbox.Id)
+                .Select(mi => new
+                {
+                    Type = "Message",
+                    Id = mi.Message.Id,
+                    SubjectOrType = mi.Message.Subject, // Subject for messages
+                    Date = mi.Message.Timestamp,
+                    IsRead = mi.Message.IsRead
+                })
+                .Union(
+                    _context.Notifications
+                        .Where(n => n.InboxId == inbox.Id)
+                        .Select(n => new
+                        {
+                            Type = "Notification",
+                            Id = n.Id,
+                            SubjectOrType = n.Type.ToString(), // Type for notifications
+                            Date = n.Timestamp,
+                            IsRead = n.IsRead
+                        })
+                )
+                .OrderByDescending(item => item.Date) // Order combined items by date
+                .Take(4) // Take the latest 4 items
+                .ToList();
+
+            // Return the result
+            return Ok(latestItems);
         }
     }
 }

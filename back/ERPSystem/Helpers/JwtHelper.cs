@@ -1,4 +1,5 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using ERPSystem.Models;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -14,10 +15,11 @@ namespace ERPSystem.Helpers
             _configuration = configuration;
         }
 
-        public string GenerateToken(string email, string role)
+        public string GenerateToken(int userId, string email, string role)
         {
             var claims = new[]
             {
+            new Claim(ClaimTypes.NameIdentifier, userId.ToString()),
             new Claim(ClaimTypes.Email, email),
             new Claim(ClaimTypes.Role, role)
         };
