@@ -111,5 +111,65 @@ namespace ERPSystem.Controllers
             // Return the result
             return Ok(latestItems);
         }
+
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public IActionResult GetAllUsers()
+        {
+            // Fetch all users and return only necessary details
+            var users = _context.Users
+                .Select(u => new
+                {
+                    u.Id,
+                    u.FirstName,
+                    u.LastName
+                })
+                .ToList();
+
+            return Ok(users);
+        }
+
+        /*[HttpPost("create")]
+        [Authorize(Roles = "Admin")]
+        public IActionResult CreateUser([FromBody] CreateUserDto userDto)
+        {
+            // Validate incoming data
+            if (string.IsNullOrEmpty(userDto.Email) || string.IsNullOrEmpty(userDto.Password) || string.IsNullOrEmpty(userDto.FirstName) || string.IsNullOrEmpty(userDto.LastName))
+            {
+                return BadRequest("All fields are required.");
+            }
+
+            // Check if the user already exists
+            if (_context.Users.Any(u => u.Email == userDto.Email))
+            {
+                return Conflict(new { message = "A user with this email already exists." });
+            }
+
+            // Create the new user
+            var user = new User
+            {
+                FirstName = userDto.FirstName,
+                LastName = userDto.LastName,
+                Email = userDto.Email,
+                Password = userDto.Password, // Hash the password later
+                Role = userDto.Role,
+                CreatedAt = DateTime.Now,
+                IsActive = true // Set default status
+            };
+
+            _context.Users.Add(user);
+            _context.SaveChanges();
+
+            // Initialize the inbox for the new user
+            var inbox = new Inbox
+            {
+                UserId = user.Id
+            };
+
+            _context.Inboxes.Add(inbox);
+            _context.SaveChanges();
+
+            return Ok(new { message = "User created successfully." });
+        }*/
     }
 }
